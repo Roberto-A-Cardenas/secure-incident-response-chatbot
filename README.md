@@ -40,20 +40,23 @@ This project deploys a secure, serverless **incident response chatbot** using AW
 ## 📂 Project Structure
 
 secure-incident-response-chatbot/
-├── assets/ # Architecture diagram + screenshots
-├── modules/
-│ ├── api-gateway/
-│ ├── cloudwatch/
-│ ├── iam/
-│ ├── lambda/
-│ ├── vpc/
 ├── main.tf
 ├── variables.tf
 ├── outputs.tf
 ├── provider.tf
 ├── backend.tf
-├── LICENSE
-└── README.md
+├── modules/
+│   ├── api-gateway/
+│   ├── cloudwatch/
+│   ├── iam/
+│   ├── lambda/
+│   ├── vpc/
+├── src/
+│   └── handler.py
+├── assets/
+│   └── diagram.png
+├── README.md
+└── LICENSE
 
 ---
 

@@ -77,7 +77,7 @@ secure-incident-response-chatbot/
 ---
 
 ## 🧪 How to Test
-
+```
 **Command-line test (Windows CMD or PowerShell):**
 curl -X POST https://<your-api-url>/incident -H "Content-Type: application/json" -d "{"query": "logs"}"
 curl -X POST https://<your-api-url>/incident -H "Content-Type: application/json" -d "{"query": "guardduty"}"
@@ -91,7 +91,7 @@ INIT_START Runtime Version: python:3.11.v76
 START RequestId: ...
 
 Event received: { ... }
-
+```
 ---
 
 ## 🧱 Real-World Roadblocks (Resolved 💪)

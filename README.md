@@ -96,7 +96,7 @@ Event received: { ... }
 
 ## 🧱 Real-World Roadblocks (Resolved 💪)
 
-- **Lambda timeouts** — Fixed by adjusting timeout + narrowing CloudWatch query window  
+- **Lambda timeouts** Fixed by adjusting timeout + narrowing CloudWatch query window  
 - **IAM permission errors**  Resolved by refining trust and execution policies  
 - **GuardDuty not enabled**  Activated manually in `us-east-1`  
 - **Module input issues**  Declared `subnet_ids` and `vpc_id` in `lambda` module  

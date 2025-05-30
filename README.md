@@ -39,6 +39,9 @@ This project deploys a secure, serverless **incident response chatbot** using AW
 
 ## 📂 Project Structure
 
+## 📁 Project Structure
+
+```
 secure-incident-response-chatbot/
 ├── main.tf
 ├── variables.tf
@@ -71,6 +74,7 @@ secure-incident-response-chatbot/
 │   ├── guardduty-success.png
 │   ├── secure-architecture-diagram.png
 │   └── final-network-diagram.png
+```
 
 ---
 

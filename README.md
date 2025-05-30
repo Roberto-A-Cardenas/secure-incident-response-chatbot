@@ -37,8 +37,6 @@ This project deploys a secure, serverless **incident response chatbot** using AW
 
 ---
 
-## 📂 Project Structure
-
 ## 📁 Project Structure
 
 ```

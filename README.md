@@ -67,11 +67,11 @@ secure-incident-response-chatbot/
 │   ├── handler.py
 │   └── lambda.zip
 ├── assets/
-│   ├── incident-bot-success.png
-│   ├── lambda-curl-logs.png
-│   ├── guardduty-success.png
-│   ├── secure-architecture-diagram.png
-│   └── final-network-diagram.png
+    ├── incident-bot-success.png
+    ├── lambda-curl-logs.png
+    ├── guardduty-success.png
+    ├── secure-architecture-diagram.png
+    └── final-network-diagram.png
 ```
 
 ---

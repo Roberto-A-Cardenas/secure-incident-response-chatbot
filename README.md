@@ -1,8 +1,8 @@
 # 🔐 Secure Incident Response Chatbot (AWS + Terraform)
 
-![Terraform](https://img.shields.io/badge/IaC-Terraform-623CE4?logo=terraform),  
-![AWS](https://img.shields.io/badge/Cloud-AWS-232F3E?logo=amazon-aws),  
-![Status](https://img.shields.io/badge/Deployed-Yes-success),  
+![Terraform](https://img.shields.io/badge/IaC-Terraform-623CE4?logo=terraform)
+![AWS](https://img.shields.io/badge/Cloud-AWS-232F3E?logo=amazon-aws)
+![Status](https://img.shields.io/badge/Deployed-Yes-success)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 This project deploys a secure, serverless **incident response chatbot** using AWS infrastructure managed via **modular Terraform**. The chatbot responds to commands like `logs`, `guardduty`, and `help` by querying CloudWatch and GuardDuty from a Lambda function running in a **private subnet**.

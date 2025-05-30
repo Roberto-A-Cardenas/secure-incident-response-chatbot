@@ -43,20 +43,34 @@ secure-incident-response-chatbot/
 ├── main.tf
 ├── variables.tf
 ├── outputs.tf
-├── provider.tf
-├── backend.tf
-├── modules/
-│   ├── api-gateway/
-│   ├── cloudwatch/
-│   ├── iam/
-│   ├── lambda/
-│   ├── vpc/
-├── src/
-│   └── handler.py
-├── assets/
-│   └── diagram.png
 ├── README.md
-└── LICENSE
+├── LICENSE
+├── .gitignore
+├── modules/
+│   ├── lambda/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── iam/
+│   │   ├── main.tf
+│   │   └── outputs.tf
+│   ├── api-gateway/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   └── vpc/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── outputs.tf
+├── src/
+│   ├── handler.py
+│   └── lambda.zip
+├── assets/
+│   ├── incident-bot-success.png
+│   ├── lambda-curl-logs.png
+│   ├── guardduty-success.png
+│   ├── secure-architecture-diagram.png
+│   └── final-network-diagram.png
 
 ---
 
